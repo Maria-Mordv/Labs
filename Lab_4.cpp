@@ -49,7 +49,7 @@ int main()
             sum += res;
             i++;
         }
-    } while (i < n);
+    } while (i <= n);
     cout << "\n" << "sin(x)/x с границей ряда 3 = " << sum;
     return 0;
 }
